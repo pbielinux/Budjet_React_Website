@@ -1,7 +1,71 @@
 export const homeObjOne = {
 	id: 'about',
-	lightBG: false,
+	lightBg: false,
 	lightText: true,
 	lightTextDesc: true,
-	topLine: 'Premium Bank',
-}
+	topLine: 'Orçamento Facilitado',
+	headline: 'Pesquise e compre materiais de contrução em minutos',
+	description: 'Descubra e escolha entre mais de 6 milhões de materiais, direto das mais confiaveis lojas da sua região.',
+	description2: 'Nossa tecnologia de pesquisa de preço possibilita o acesso a descontos de até 30% em todos os materiais necessários para ter seu trabalho feito.',
+	buttonLabel: 'Get started',
+	imgStart: false,
+	img: '../../../images/svg-1.svg',
+	alt: 'Building',
+	dark: true,
+	primary: true,
+	darkText: false
+};
+
+export const homeObjTwo = {
+	id: 'products',
+	lightBg: true,
+	lightText: false,
+	lightTextDesc: true,
+	topLine: 'Variedade de produtos',
+	headline: 'Tudo que você precisa, a qualquer altura da obra',
+	description: 'Descubra e escolha entre mais de 6 milhões de materiais, direto das mais confiaveis lojas da sua região.',
+	description2: 'Nossa tecnologia de pesquisa de preço possibilita o acesso a descontos de até 30% em todos os materiais necessários para ter seu trabalho feito.',
+	buttonLabel: 'Saber mais',
+	imgStart: false,
+	img: '../../../images/svg-2.svg',
+	alt: 'Materials ',
+	dark: false,
+	primary: false,
+	darkText: true
+};
+
+export const homeObjThree = {
+	id: 'payment',
+	lightBg: true,
+	lightText: false,
+	lightTextDesc: false,
+	topLine: 'Pagamento Facilitado',
+	headline: 'Você escolhe como vai pagar, Cartão ou Cheque?',
+	description: 'Descubra e escolha entre mais de 6 milhões de materiais, direto das mais confiaveis lojas da sua região.',
+	description2: 'Nossa tecnologia de pesquisa de preço possibilita o acesso a descontos de até 30% em todos os materiais necessários para ter seu trabalho feito.',
+	buttonLabel: 'Get started',
+	imgStart: false,
+	img: '../../../images/svg-3.svg',
+	alt: 'Payment',
+	dark: false,
+	primary: false,
+	darkText: true,
+};
+
+export const homeObjFour = {
+	id: 'newsletter',
+	lightBg: false,
+	lightText: true,
+	lightTextDesc: false,
+	topLine: 'Newsletter',
+	headline: 'Não perca nenhuma atualização',
+	description: 'Deixe seu email para ser o primeiro a receber nossas novidades.',
+	description2: '',
+	buttonLabel: 'Get started',
+	imgStart: false,
+	img: '../../../images/svg-4.svg',
+	alt: 'newsletter',
+	dark: false,
+	primary: true,
+	darkText: false,
+};

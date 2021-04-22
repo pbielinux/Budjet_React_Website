@@ -17,26 +17,29 @@ const Navbar = ({ toggle }) => {
 		<>
 		<Nav>
 			<NavbarContainer>
-				<NavLogo to='/'>Budjet.com</NavLogo>
+				<NavLogo to='/'>Budjet</NavLogo>
 				<MobileIcon onClick={toggle}>
 					<FaBars />
 				</MobileIcon>
 				<NavMenu>
 					<NavItem>
-						<NavLinks to="about">About</NavLinks>
+						<NavLinks to="about">Sobre</NavLinks>
 					</NavItem>
 					<NavItem>
-						<NavLinks to="discover">Discover</NavLinks>
+						<NavLinks to="products">Produtos</NavLinks>
 					</NavItem>
 					<NavItem>
-						<NavLinks to="services">Services</NavLinks>
+						<NavLinks to="services">Serviços</NavLinks>
 					</NavItem>
 					<NavItem>
-						<NavLinks to="signup">Sign Up</NavLinks>
+						<NavLinks to="payment">Pagamento</NavLinks>
+					</NavItem>
+					<NavItem>
+						<NavLinks to="newsletter">Novidades</NavLinks>
 					</NavItem>
 				</NavMenu>
 				<NavBtn>
-					<NavBtnLink to="/signin">Sign In</NavBtnLink>
+					<NavBtnLink to="Comece agora">Sign In</NavBtnLink>
 				</NavBtn>
 			</NavbarContainer>
 		</Nav>
